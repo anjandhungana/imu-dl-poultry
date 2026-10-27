@@ -1,0 +1,43 @@
+<View>
+  <Header value="Behavior labeling: use the video to identify behavior, then drag over the matching IMU time range."/>
+
+  <TimeSeriesLabels name="behavior" toName="imu">
+    <Label value="Standing" background="#4C78A8" hotkey="1"/>
+    <Label value="Walking" background="#59A14F" hotkey="2"/>
+    <Label value="Running" background="#F28E2B" hotkey="3"/>
+    <Label value="Sitting" background="#B279A2" hotkey="4"/>
+    <Label value="Lying" background="#76B7B2" hotkey="5"/>
+    <Label value="Transition" background="#EDC948" hotkey="6"/>
+    <Label value="Other" background="#BAB0AC" hotkey="7"/>
+  </TimeSeriesLabels>
+
+  <Video name="video"
+         value="$video"
+         sync="recording"
+         frameRate="30"
+         height="420"/>
+
+  <Header value="Acceleration (m/s²)"/>
+  <TimeSeries name="imu"
+              value="$imu"
+              valueType="url"
+              sync="recording"
+              sep=","
+              timeColumn="time"
+              timeFormat="%H:%M:%S.%f"
+              timeDisplayFormat="%H:%M:%S.%f"
+              overviewChannels="ax,ay,az"
+              overviewWidth="12%"
+              fixedScale="true">
+    <MultiChannel>
+      <Channel column="ax" strokeColor="#E15759" legend="Accel X" height="90"/>
+      <Channel column="ay" strokeColor="#59A14F" legend="Accel Y" height="90"/>
+      <Channel column="az" strokeColor="#4E79A7" legend="Accel Z" height="90"/>
+    </MultiChannel>
+    <MultiChannel>
+      <Channel column="gx" strokeColor="#F28E2B" legend="Gyro X" height="90"/>
+      <Channel column="gy" strokeColor="#B07AA1" legend="Gyro Y" height="90"/>
+      <Channel column="gz" strokeColor="#76B7B2" legend="Gyro Z" height="90"/>
+    </MultiChannel>
+  </TimeSeries>
+</View>

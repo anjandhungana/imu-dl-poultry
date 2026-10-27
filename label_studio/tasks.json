@@ -1,0 +1,16 @@
+[
+  {
+    "data": {
+      "session": "session_20261022_004308",
+      "video": "http://127.0.0.1:8765/label_studio/processed/session_20261022_004308/video.mp4",
+      "imu": "http://127.0.0.1:8765/recordings/session_20261022_004308/imu.csv"
+    }
+  },
+  {
+    "data": {
+      "session": "session_20261022_005024",
+      "video": "http://127.0.0.1:8765/label_studio/processed/session_20261022_005024/video.mp4",
+      "imu": "http://127.0.0.1:8765/recordings/session_20261022_005024/imu.csv"
+    }
+  }
+]

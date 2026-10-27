@@ -1,0 +1,238 @@
+[
+    {
+        "id": 383,
+        "annotations": [
+            {
+                "id": 203,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 12.87190715,
+                            "end": 13.075737678,
+                            "instant": false,
+                            "timeserieslabels": [
+                                "sit"
+                            ]
+                        },
+                        "id": "CJOxVdUvEA",
+                        "from_name": "behavior",
+                        "to_name": "imu",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2026-10-22T05:15:48.801351Z",
+                "updated_at": "2026-10-22T05:15:48.801364Z",
+                "draft_created_at": "2026-10-22T05:15:02.354374Z",
+                "lead_time": 55.615,
+                "prediction": {},
+                "result_count": 1,
+                "unique_id": "ea5581cf-2322-47c8-a384-d448178fc29e",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 383,
+                "project": 17,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "9ae9a324-tasks.json",
+        "drafts": [
+            {
+                "id": 143,
+                "user": "anzan@uga.edu",
+                "created_username": "anzan@uga.edu, 1",
+                "created_ago": "7 minutes",
+                "result": [
+                    {
+                        "value": {
+                            "start": 12.87190715,
+                            "end": 13.075737678,
+                            "instant": false,
+                            "timeserieslabels": [
+                                "sit"
+                            ]
+                        },
+                        "id": "CJOxVdUvEA",
+                        "from_name": "behavior",
+                        "to_name": "imu",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 14.706927148,
+                            "end": 15.011726024,
+                            "instant": false,
+                            "timeserieslabels": [
+                                "jump"
+                            ]
+                        },
+                        "id": "wIwkdy_hsZ",
+                        "from_name": "behavior",
+                        "to_name": "imu",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 14.553809273,
+                            "end": 14.655830188,
+                            "instant": false,
+                            "timeserieslabels": [
+                                "jump"
+                            ]
+                        },
+                        "id": "1nup9bpgGM",
+                        "from_name": "behavior",
+                        "to_name": "imu",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 16.030807523,
+                            "end": 16.745048232,
+                            "instant": false,
+                            "timeserieslabels": [
+                                "run"
+                            ]
+                        },
+                        "id": "VRv0NYfbgf",
+                        "from_name": "behavior",
+                        "to_name": "imu",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    }
+                ],
+                "lead_time": 369.282,
+                "was_postponed": false,
+                "import_id": null,
+                "created_at": "2026-10-22T05:18:33.089156Z",
+                "updated_at": "2026-10-22T05:24:36.174953Z",
+                "task": 383,
+                "annotation": 203
+            }
+        ],
+        "predictions": [],
+        "data": {
+            "session": "session_20261022_004308",
+            "video": "http:\/\/127.0.0.1:8765\/label_studio\/processed\/session_20261022_004308\/video.mp4",
+            "imu": "http:\/\/127.0.0.1:8765\/recordings\/session_20261022_004308\/imu.csv"
+        },
+        "meta": {},
+        "created_at": "2026-10-22T05:12:07.779501Z",
+        "updated_at": "2026-10-22T05:15:48.916345Z",
+        "inner_id": 1,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 17,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 384,
+        "annotations": [
+            {
+                "id": 202,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 3.777182191,
+                            "end": 4.135074619,
+                            "instant": false,
+                            "timeserieslabels": [
+                                "run"
+                            ]
+                        },
+                        "id": "vTzaX2F3DM",
+                        "from_name": "behavior",
+                        "to_name": "imu",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 4.287228927,
+                            "end": 4.746423412,
+                            "instant": false,
+                            "timeserieslabels": [
+                                "dust_bathe"
+                            ]
+                        },
+                        "id": "IeD8Sv8871",
+                        "from_name": "behavior",
+                        "to_name": "imu",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 4.848333649,
+                            "end": 5.001407033,
+                            "instant": false,
+                            "timeserieslabels": [
+                                "drink"
+                            ]
+                        },
+                        "id": "bFnPEL4AsN",
+                        "from_name": "behavior",
+                        "to_name": "imu",
+                        "type": "timeserieslabels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2026-10-22T05:13:00.868173Z",
+                "updated_at": "2026-10-22T05:13:00.868192Z",
+                "draft_created_at": "2026-10-22T05:12:39.077188Z",
+                "lead_time": 51.016,
+                "prediction": {},
+                "result_count": 3,
+                "unique_id": "5610e94a-3ac5-4b22-bd1f-5aca36ff358f",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 384,
+                "project": 17,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "9ae9a324-tasks.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "session": "session_20261022_005024",
+            "video": "http:\/\/127.0.0.1:8765\/label_studio\/processed\/session_20261022_005024\/video.mp4",
+            "imu": "http:\/\/127.0.0.1:8765\/recordings\/session_20261022_005024\/imu.csv"
+        },
+        "meta": {},
+        "created_at": "2026-10-22T05:12:07.779545Z",
+        "updated_at": "2026-10-22T05:13:00.987591Z",
+        "inner_id": 2,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 17,
+        "updated_by": 1,
+        "comment_authors": []
+    }
+]

@@ -1,0 +1,14 @@
+{
+  "started_at": "2026-10-22T00:50:24.409948-04:00",
+  "camera_index": 0,
+  "frame_width": 1920,
+  "frame_height": 1080,
+  "video_fps": 30.0,
+  "serial_port": "/dev/ttyACM0",
+  "serial_baud": 115200,
+  "imu_target_hz": 20,
+  "stopped_at": "2026-10-22T00:50:35.858771-04:00",
+  "duration_s": 11.44885471,
+  "video_frame_count": 189,
+  "imu_sample_count": 225
+}
